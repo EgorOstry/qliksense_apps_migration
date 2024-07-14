@@ -2,3 +2,4 @@ pandas
 requests
 python_dotenv
 openpyxl
+git-filter-repo

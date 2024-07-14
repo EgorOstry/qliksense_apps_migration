@@ -32,7 +32,7 @@ start cmd /k "python -u main.py & timeout /t 5 & exit"
 1.1 export шаг 1 - post
 1.2 export шаг 2 - get (сохраняет файл приложения в папку exported_qvf_apps в корне проекта)
 
-2. Копирование экспортированного приложения на QS2 (копирует приложение из exported_qvf_apps в \\QS2\QlikShare\Apps\UVELKA\<user>)
+2. Копирование экспортированного приложения на QS2 (копирует приложение из exported_qvf_apps в importfolder на QS2)
 
 3. Импорт приложения (файл приложения должен находиться в папке importfolder (см.документацию API))
 
